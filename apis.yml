@@ -1,8 +1,17 @@
 aid: golden-child
 name: Golden Child
-description: Golden Child is a company surfaced as a portfolio company of redpoint-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Golden Child is a direct-to-consumer pet wellness brand offering fresh,
+  human-grade, vet-formulated dog food delivered on a subscription basis.
+  Founded in 2025 by former Hims & Hers leaders Quentin Lacornerie and
+  Jack Abraham, the company pairs science-backed "main" meals with
+  taste-driven "drizzle" toppers, guided by a two-minute intake quiz that
+  builds a personalized meal plan for each dog. It operates a Shopify
+  Hydrogen storefront at mygoldenchild.com and has raised $37M from
+  Redpoint Ventures, Atomic, and A*. Golden Child publishes no public
+  developer API, documentation, or SDKs; this profile tracks it as a
+  company in the API Evangelist network, surfaced from the Redpoint
+  Ventures portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/golden-child/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +19,30 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://media.mygoldenchild.com/images/og-home.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Pets
+- Dog Food
+- Pet Nutrition
+- Direct-to-Consumer
+- E-Commerce
+- Subscription
+- Consumer Brand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +51,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://mygoldenchild.com/
+  url: https://mygoldenchild.com/
+- type: Support
+  url: https://mygoldenchild.com/contact
+- type: TermsOfService
+  url: https://mygoldenchild.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://mygoldenchild.com/policies/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/my-golden-child/
+- type: Instagram
+  url: https://www.instagram.com/mygoldenchild/
+- type: TikTok
+  url: https://www.tiktok.com/@mygoldenchild
+- type: DomainSecurity
+  url: security/golden-child-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
